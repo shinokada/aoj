@@ -1,3 +1,5 @@
+# [morizyun](https://github.com/morizyun/aoj-ruby-python/blob/master/ruby/0008.rb) method
+
 # x = Array.new(37, 0)
 # i = j = k = l = 10
 # i.times{ |i|
