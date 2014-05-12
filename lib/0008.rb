@@ -22,7 +22,8 @@
 # My method
 
 a = []
-(0..9).to_a.product((0..9).to_a).product((0..9).to_a).product((0..9).to_a).flatten(3).each_slice(4){|e| a << e.inject(:+)}
+(0..9).to_a.product((0..9).to_a).product((0..9).to_a).product((0..9).to_a)
+.flatten(3).each_slice(4){|e| a << e.inject(:+)}
 
 counts  = Hash.new(0)
  
