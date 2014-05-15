@@ -1,0 +1,6 @@
+[submodule "ruby/aoj-ruby-python"]
+	path = ruby/aoj-ruby-python
+	url = git://github.com/morizyun/aoj-ruby-python
+[submodule "aoj-ruby-python"]
+	path = aoj-ruby-python
+	url = git://github.com/morizyun/aoj-ruby-python

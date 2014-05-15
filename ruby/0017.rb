@@ -20,3 +20,4 @@ input_arr.map do |e|
 end
 
 p result.join
+
