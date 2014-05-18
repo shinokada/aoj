@@ -3,24 +3,21 @@
 # Given a sequence of numbers a1, a2, a3, , , an, find the 
 # maximum sum of a contiguous subsequence of those numbers. 
 # Note that, a subsequence of one element is also a contiquous subsequence.
-
-total = []
-sum_max = 0
-sum_a = 0
-sum = []
-while n = gets.to_f
+result = []
+max_sum = 0
+sum = 0
+while n = gets.to_i
   if n == 0
-    p total
+    p result
+   # break
   else
-    i = 0
-    while i < n  
-      sum << gets.to_f
-      #p sum
-      i += 1
-      sum.map{|e| e.inject(:+).to_i}
+    n.times do
+      m = gets.to_i
+      sum = max_sum + m
+      max_sum = [ m, max_sum, sum ].max
     end
-    total << sum
-    sum = []
-    #p total
+    result << max_sum
+    sum = 0 
+    max_sum = 0
   end
 end

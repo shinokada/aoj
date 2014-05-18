@@ -1,3 +1,7 @@
+# Caesar Chipher
+# Solution at https://github.com/morizyun/aoj-ruby-python/blob/master/ruby/0017.rb is very clever.
+
+
 input = 'xlmw mw xli tmgxyvi xlex m xsso mr xli xvmt.'
 output = 'this is the picture that i took in the trip.'
 
