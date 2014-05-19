@@ -39,6 +39,4 @@ while n = gets
   p gridcount.max[0]
  # max = gridcount.max_by{|k,v| k}
  # p max[0]
-
-
 end
