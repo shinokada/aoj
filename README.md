@@ -3,46 +3,32 @@
 [Sample source](https://github.com/morizyun/aoj-ruby-python)
 
 - [0000: QQ](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0000) 
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0000.rb)
 
 - [0001: List of Top 3 Hills](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0001) 
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0001.rb)
 
 - [0002: Digit Number](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0002)
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0002.rb)
 
 - [0003: Is it a Right Triangle?](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0003) 
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0003.rb)
 
 - [0004: Simultaneous Equation](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0004) 
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0004.rb)
 
 - [0005: GCD and LCM](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0005)
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0005.rb)
 
 - [0006: Reverse Squence](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0006)
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0006.rb) Not done yet.
 
 - [0007: Debt Hell](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0007)
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0007.rb)
 
 - [0008: Sum of 4 Integers](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0008) 
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0008.rb)
 
 - [0009: Prime Number](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0009)  
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0009.rb) There are 0009a.rb and 0009b.rb as well.
 
 - [0010: Circumscribed Circle of a Triangle](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0010) 
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0010.rb)
 
 - [0011: Drawing Lots](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0011) 
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0011.rb)
 
 - [0012: A Point in a Triangle](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0012)
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0012.rb)
 
 - [0013: Switching Railroad Cars](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0013) 
-  - [Ruby](https://github.com/shinokada/aoj/blob/master/ruby/0013.rb)
 
 - 0014: Integral
 
