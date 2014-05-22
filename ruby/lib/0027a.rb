@@ -3,19 +3,19 @@ def whatday(arr)
     month, date = arr.map(&:to_i)
     day = Time.new(2004, month, date)
     if day.sunday?
-      p "Sunday"
+      "Sunday"
     elsif day.monday?
-      p "Monday"
+      "Monday"
     elsif day.tuesday?
-      p "Tuesday"
+      "Tuesday"
     elsif day.wednesday?
-      p "Wednesday"
+      "Wednesday"
     elsif day.thursday?
-      p "Thursday"
+      "Thursday"
     elsif day.friday?
-      p "Friday"
+      "Friday"
     else
-      p "Saturday"
+      "Saturday"
     end
   else
     'end of input'
