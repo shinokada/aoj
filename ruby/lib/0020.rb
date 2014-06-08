@@ -1,1 +1,1 @@
-p gets.chomp.upcase
+puts gets.chomp.upcase

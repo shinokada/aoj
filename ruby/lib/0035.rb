@@ -11,5 +11,4 @@ def convex?(arr)
   cross_bd_bc = bc.cross_product bd 
   # YES : not convex NO: No it's convex
   cross_bd_bc[2] * cross_bd_ba[2] < 0 ? 'YES' : 'NO' 
-
 end

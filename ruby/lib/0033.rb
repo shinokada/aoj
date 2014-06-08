@@ -1,5 +1,5 @@
 def ball(arr)
-  setnum = arr.shift
+  arr.shift
   result = []
   left = []
   right = []
@@ -13,8 +13,7 @@ def ball(arr)
         break
       end
     end
-    v.length == right.length + left.length ? result << "YES" : result << "NO" 
-
+    v.length == right.length + left.length ? result << 'YES' : result << 'NO'
   end
   result
 end

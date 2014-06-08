@@ -6,4 +6,3 @@ while s = gets
   end
   puts s
 end
-

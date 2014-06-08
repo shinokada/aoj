@@ -21,11 +21,10 @@ end
 
 while str = gets
   a = str.split(' ').map(&:to_i)
-  #puts "#{a.gcd} #{a.lcm}"
-  puts a.inspect
+  puts "#{a.gcd} #{a.lcm}"
+#  puts a.inspect
 end
 
 # output
 # 2 24
 # 10000000 150000000
-

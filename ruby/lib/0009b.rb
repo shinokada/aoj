@@ -1,16 +1,14 @@
 # [Rosettacode](http://rosettacode.org/wiki/Sieve_of_Eratosthenes#Ruby)
 
-
 def eratosthenes(n)
   nums = [nil, nil, *2..n]
   (2..Math.sqrt(n)).each do |i|
-    (i**2..n).step(i){|m| nums[m] = nil}  if nums[i]
+    (i**2..n).step(i) { |m| nums[m] = nil }  if nums[i]
   end
   nums.compact
 end
- 
-p eratosthenes(100)
 
+p eratosthenes(100)
 
 def eratosthenes2(n)
   # For odd i, if i is prime, nums[i >> 1] is true.
@@ -18,7 +16,7 @@ def eratosthenes2(n)
   nums = [true, false, true] * ((n + 5) / 6)
   nums[0] = false  # 1 is not prime.
   nums[1] = true   # 3 is prime.
- 
+
   # Outer loop and both inner loops are skipping multiples of 2 and 3.
   # Outer loop checks i * i > n, same as i > Math.sqrt(n).
   i = 5
@@ -47,13 +45,13 @@ def eratosthenes2(n)
     end
     i += 4
   end
- 
+
   primes = [2]
   nums.each_index {|i| primes << (i * 2 + 1) if nums[i]}
   primes.pop while primes.last > n
   primes
 end
- 
+
 p eratosthenes2(100)
 
 require 'benchmark'
@@ -61,7 +59,3 @@ Benchmark.bmbm {|x|
   x.report("eratosthenes") { eratosthenes(1_000_000) }
   x.report("eratosthenes2") { eratosthenes2(1_000_000) }
 }
-
-
-
-

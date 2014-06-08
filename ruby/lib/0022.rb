@@ -9,7 +9,6 @@ sum = 0
 while n = gets.to_i
   if n == 0
     p result
-   # break
   else
     n.times do
       m = gets.to_i

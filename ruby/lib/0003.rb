@@ -15,4 +15,3 @@ arr.each do |ia|
     puts 'NO'
   end
 end
-
