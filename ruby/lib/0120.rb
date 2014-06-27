@@ -1,4 +1,7 @@
 # Patisserie
+#
+# Both method output correct answers but did not pass judge.u-aizu.ac.jp
+#
 # sort from small to large
 # then put in order of 1, 5, 2, 4, 3
 # (1..5).zip ((1..5).reverse_each)
