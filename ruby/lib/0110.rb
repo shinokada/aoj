@@ -1,7 +1,3 @@
-# use loop from 0 to 9
-# use eval
-# 120+13=133
-# 120+1x=1xx
 while n = gets.chomp
 answers = []
 expans = []
