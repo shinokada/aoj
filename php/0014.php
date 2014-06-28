@@ -9,4 +9,4 @@ for( $i=0; $i<$num_of_rec; $i++)
 }
 print_r (array_sum($result));
 //var_dump ($result);
-?>
+
