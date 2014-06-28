@@ -1,7 +1,5 @@
 # Sum and average
-totalp = 0
-i = 0
-qua = 0
+qua = totalp = i = 0
 while n = $stdin.gets
   price, q = n.split(',').map(&:to_i)
   totalp += price * q

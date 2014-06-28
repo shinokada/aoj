@@ -1,4 +1,4 @@
-while n = STDIN.gets
+while n = gets.chomp
 answers = []
 expans = []
 result =''
